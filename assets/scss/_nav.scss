@@ -34,6 +34,14 @@
         position: fixed;
         top: 0;
         width: 100%;
+
+        .brand-name {
+            display: none;}
+    }
+
+    @include media-breakpoint-down(md) {
+        .navbar-logo {
+            display: none;}
     }
 
 
@@ -44,6 +52,21 @@
         .nav-link {
             display: inline-block;
             margin-right: -30px;
+        }
+
+        .navbar-logo {
+            svg {
+                display: inline-block;
+                position: absolute;
+                z-index: 33;
+                margin: -32px 10px 0 10px;
+                padding: 100px;
+                max-height: 100px;
+                max-width: 100px;
+                background: white;
+                border: 2px solid #4279f4;
+                border-top: none;
+            }
         }
     }
 
@@ -88,5 +111,7 @@
 
             }
         }
+        .navbar-logo {
+            display: none;}
     }
 }
