@@ -38,14 +38,6 @@ pygmentsStyle = "tango"
     name = "Documentation"
     weight = 10
     url = "/docs/"
-[[menu.main]]
-    name = "Blog"
-    weight = 20
-    url = "https://medium.com/kubeflow"
-[[menu.main]]
-    name = "GitHub"
-    weight = 30
-    url = "https://github.com/kubeflow/"
 
 # Docsy: Configure the format of URLs per section.
 #[permalinks]
