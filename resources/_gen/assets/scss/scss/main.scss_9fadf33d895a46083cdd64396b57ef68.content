@@ -129,6 +129,19 @@ html.smooth-scroll {
     -ms-flex-order: 1;
     order: 1; } }
 
+.navbar-logo svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  z-index: 33;
+  max-height: 100px;
+  max-width: 100px;
+  padding: 10px;
+  background: white;
+  border: 2px solid #4279f4;
+  border-top: none; }
+
 /*
 
 Bootstrap variables overrides for theme.
