@@ -12324,6 +12324,18 @@ readers do not read off random characters that represent icons */
     .td-navbar .navbar-brand .nav-link {
       display: inline-block;
       margin-right: -30px; }
+    .td-navbar .navbar-brand navbar-logo svg {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 150px;
+      z-index: 33;
+      max-height: 100px;
+      max-width: 100px;
+      padding: 10px;
+      background: white;
+      border: 2px solid #4279f4;
+      border-top: none; }
     .td-navbar .navbar-brand svg {
       display: inline-block;
       margin: 0 10px;
