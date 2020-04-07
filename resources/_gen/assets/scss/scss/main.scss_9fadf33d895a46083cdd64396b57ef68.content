@@ -12188,7 +12188,7 @@ readers do not read off random characters that represent icons */
     .td-navbar .navbar-brand .nav-link {
       display: inline-block;
       margin-right: -30px; }
-    .td-navbar .navbar-brand navbar-logo svg {
+    .td-navbar .navbar-brand .navbar-logo svg {
       display: inline-block;
       position: absolute;
       top: 0;
