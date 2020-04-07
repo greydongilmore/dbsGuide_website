@@ -1,24 +1,35 @@
++++
+title= "Introduction"
+description = ""
++++
 
----
-title: "Documentation"
-linkTitle: "Documentation"
-weight: 20
-menu:
-  main:
-    weight: 20
+## Visualization Software for Deep Brain Stimulation Neurosurgery
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+![dbs_launch](img/DBSLaunch.png)
 
+## What is DBS Guide?
+---
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
+**DBS Guide** is a surgical planning, visuazliation, and postoperative assessment tool used for deep brain stimulation. It is an extension that can be used with 3D Slicer (a well-known MRI Visualization software). DBS Guide provides capabilities across the entire surgical spectrum:
 
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section. 
+1. **Pre-operative**
+   - Co-registration of MRI scans with 3D volumetric stealth MRI
+   
+   ![dbs_launch](img/Preop/coregConfirmSlide.gif)
 
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
+   - Planning DBS lead trajectory
 
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+2. **Intra-operative**
+   - Co-restration of frame CT with MRI 
+   - Confirmation of frame fiducials using automated frame detection (DBS Guide identifies the frame fiducials using image recognition)
+   - Determining accuracy of (x,y,z) coordinates, arc and ring angles
+   - Mapping of microelectrode (MER) recordings and plotting them in patient brain anatomy
+   - Saving information regarding the trajectory used (medial, lateral, etc.) and other lead implant specs (e.g. depth)
+3. **Post-operative**
+   - Co-registration of post-op CT with pre-op MRI 
+   - Visualization of implanted electrodes with high accuracy
+   - Manipulation of stimulation settings 
+   - Volume tissue activation model based on stimulation settings
 
-
+To get a walk-through of DBS Guide and its capabilities in each phase of surgery (pre/intra/post-op), visit <a href="https://dbsguidedocs.readthedocs.io/en/latest/usage.html#usage" target="_blank">How to use DBS Guide</a>.
