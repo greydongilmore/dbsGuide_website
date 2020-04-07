@@ -129,7 +129,7 @@ html.smooth-scroll {
     -ms-flex-order: 1;
     order: 1; } }
 
-.navbar-logo svg {
+.td-navbar .navbar-brand .navbar-logo svg {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -12300,9 +12300,7 @@ readers do not read off random characters that represent icons */
     .td-navbar-cover {
       background: transparent !important; }
       .td-navbar-cover .nav-link {
-        text-shadow: 1px 1px 2px #213d7a; }
-      .td-navbar-cover .brand-name {
-        display: none; } }
+        text-shadow: 1px 1px 2px #213d7a; } }
   .td-navbar-cover.navbar-bg-onscroll .nav-link {
     text-shadow: none; }
 
@@ -12315,8 +12313,6 @@ readers do not read off random characters that represent icons */
   min-height: 4rem;
   margin: 0;
   z-index: 32; }
-  .td-navbar .brand-name {
-    display: none; }
   @media (min-width: 768px) {
     .td-navbar {
       position: fixed;
@@ -12324,30 +12320,14 @@ readers do not read off random characters that represent icons */
       width: 100%; } }
   .td-navbar .navbar-brand {
     text-transform: none;
-    text-align: middle;
-    margin: 0;
-    padding: 0; }
+    text-align: middle; }
     .td-navbar .navbar-brand .nav-link {
       display: inline-block;
       margin-right: -30px; }
-    .td-navbar .navbar-brand .navbar-logo svg {
+    .td-navbar .navbar-brand svg {
       display: inline-block;
-      position: absolute;
-      top: 0;
-      left: 150px;
-      z-index: 33;
-      max-height: 100px;
-      max-width: 100px;
-      padding: 10px;
-      background: white;
-      border: 2px solid #4279f4;
-      border-top: none; }
-      @media (max-width: 991.98px) {
-        .td-navbar .navbar-brand .navbar-logo svg {
-          left: 16px;
-          width: 60px;
-          height: auto;
-          padding: 6px; } }
+      margin: 0 10px;
+      height: 30px; }
   .td-navbar .nav-link {
     text-transform: none;
     font-weight: 700; }
@@ -12366,10 +12346,9 @@ readers do not read off random characters that represent icons */
   @media (max-width: 991.98px) {
     .td-navbar {
       padding-right: .5rem;
-      padding-left: .75rem;
-      align-items: flex-end; }
+      padding-left: .75rem; }
       .td-navbar .td-navbar-nav-scroll {
-        max-width: calc(100% + .75rem - 96px - 1.5rem);
+        max-width: 100%;
         height: 2.5rem;
         margin-top: .25rem;
         overflow: hidden;
@@ -12378,7 +12357,6 @@ readers do not read off random characters that represent icons */
           padding-right: .25rem;
           padding-left: 0; }
         .td-navbar .td-navbar-nav-scroll .navbar-nav {
-          margin-top: 0 !important;
           padding-bottom: 2rem;
           overflow-x: auto;
           white-space: nowrap;
