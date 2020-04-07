@@ -12194,7 +12194,6 @@ readers do not read off random characters that represent icons */
       top: 0;
       left: 150px;
       z-index: 33;
-      max-height: 100px;
       max-width: 100px;
       padding: 10px;
       background: white;
