@@ -2,7 +2,6 @@
 title =  "Frame Detection"
 description = ""
 weight = 5
-aliases = [""]
 +++
 
 ![widget03](../img/widget03.png)

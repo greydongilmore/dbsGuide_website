@@ -2,7 +2,6 @@
 title =  "Registration"
 description = ""
 weight = 6
-aliases = [""]
 +++
 
 ![widget04](../img/widget04.png)

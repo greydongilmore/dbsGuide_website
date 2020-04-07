@@ -2,7 +2,6 @@
 title =  "Patient Directory"
 description = ""
 weight = 4
-aliases = [""]
 +++
 
 ![widget_01](../img/widget01.png)
