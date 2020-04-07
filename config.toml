@@ -32,6 +32,8 @@ pygmentsStyle = "tango"
 # Docsy: First one is picked as the Twitter card image if not set on page.
 #images = ["images/project-illustration.png"]
 
+navbar_logo = true
+
 # Top-level navigation (horizontal)
 
 [[menu.main]]
