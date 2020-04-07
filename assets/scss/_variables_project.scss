@@ -152,8 +152,7 @@ $navbar-dark-active-color: $navbar-dark-color;
       -ms-flex-order: 1;
           order: 1; } }
 
-.td-navbar .navbar-brand .navbar-logo {
-    svg {
+.td-navbar .navbar-brand .navbar-logo svg {
         display: inline-block;
         position: absolute;
         top: 0;
@@ -165,5 +164,4 @@ $navbar-dark-active-color: $navbar-dark-color;
         background: white;
         border: 2px solid #4279f4;
         border-top: none;
-    }
 }
