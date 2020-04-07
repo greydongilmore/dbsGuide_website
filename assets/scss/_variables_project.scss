@@ -1,0 +1,29 @@
+/*
+Add styles or override the theme's variables here.
+*/
+
+// Theme colors
+
+$primary: #4279f4;
+$secondary: #fff;
+$dark: #213d7a;
+$info: #adb5bd;
+
+.td-navbar {
+    .navbar-brand {
+        .navbar-logo {
+            svg {
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                left: 150px;
+                z-index: 33;
+                max-width: 100px;
+                padding: 10px;
+                background: white;
+                border: 2px solid #4279f4;
+                border-top: none;
+            }
+        }
+    }
+}
