@@ -8,7 +8,8 @@ weight = 1
 -------------------
 DBS, short for Deep Brain Stiumation, is an established surgical treatment for people with movement disroders, such as Parkinson's disease and dystonia. It involves implanting electrodes (thin metal wires) within certain areas of the brain and sending electrical impulses to the brain through these electrodes. The electrical impulses are controlled a device that's implanted by the chest.
 
-![overview](../img/patientOverview.png)
+<p align="center"><img src="img/patientOverview.png" alt="patientOverview" width="20%"/></p>
+
 
 Diagram from: https://mayfieldclinic.com/pe-dbs.htm
 
@@ -19,17 +20,19 @@ Learn more about deep brain stimulation <a href="https://mayfieldclinic.com/pe-d
 --------------------
 **DBS Guide** is a surgical planning, visuazliation, and postoperative assessment tool used for deep brain stimulation. It provides capabilities across the entire surgical spectrum:
 
-![dbs_launch](../img/DBSLaunch.png)
+<p align="center"><img src="img/DBSLaunch.png" alt="DBSLaunch" width="50%"/></p>
 
 1. Pre-operative
 	- Co-registration of MRI scans with 3D volumetric stealth MRI
-	- Planning DBS lead trajectory 
+	- Planning DBS lead trajectory
+
 2. Intra-operative
 	- Co-restration of frame CT with MRI 
 	- Confirmation of frame fiducials using automated frame detection (DBS Guide identifies the frame fiducials using image recognition)
 	- Determining accuracy of (x,y,z) coordinates, arc and ring angles
 	- Mapping of microelectrode (MER) recordings and plotting them in patient brain anatomy
 	- Saving information regarding the trajectory used (medial, lateral, etc.) and other lead implant specs (e.g. depth)
+
 3. Post-operative
 	   - Co-registration of post-op CT with pre-op MRI 
 	   - Visualization of implanted electrodes with high accuracy
@@ -45,7 +48,7 @@ Learn more about deep brain stimulation <a href="https://mayfieldclinic.com/pe-d
 ### 3D Slicer Features
 Multi-organ: from head to toe Support for multi-modality imaging including: MRI, CT, US, nuclear medicine, and microscopy Bidirectional interface for devices
 
-![overview](../img/3DSlicer.png)
+<p align="center"><img src="img/3DSlicer.png" alt="3DSlicer" width="50%"/></p>
 
 
 ## Sources
